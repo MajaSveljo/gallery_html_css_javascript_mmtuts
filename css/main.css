@@ -1,0 +1,46 @@
+html, body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+}
+
+.wrapper-main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 20vw;
+}
+
+h2 {
+    font-size: 3.2rem;
+}
+
+p{
+    font-size: 1.6rem;
+}
+
+.wrapper-main a{
+    display: flex;
+}
+
+.wrapper-main a img{
+    width: 40px;
+    height: 40px;
+}
+
+.wrapper-main ul{
+    display: flex;
+    /* align-items: center; */
+}
+
+.wrapper-main ul li a{
+    padding: 0 15px;
+    text-decoration: none;
+}
+
+.wrapper-gallery{
+    margin: 0 20vw 10vh;
+}
+
+#header-main{
+    margin: 5vh 0;
+}
